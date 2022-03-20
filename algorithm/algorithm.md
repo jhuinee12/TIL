@@ -1,0 +1,67 @@
+# Algorithm
+## 버블정렬
+> 최초작성 : 2021.06.14
++ [버블정렬 소스코드](./sortAlgorithm.java)
++ 두 인접한 원소를 검사하여 정렬하는 방법, 시간 복잡도가 느리지만 코드가 단순하여 자주 
+사용됨
++ if
+    + 55 07 78 12 42 // sort
+    + 07 55 78 12 42 // pass
+    + 07 55 78 12 42 // sort
+    + 07 55 12 78 42 // sort
+    + 07 55 12 42 78 // pass
+```java
+for (int i=0; i<arr.length; i++) {
+  for (int j=0; j<arr.length-i; j++) {
+    if (arr[j] < arr[j-1]) {
+        temp = arr[j-1];
+        arr[j-1] = arr[j];
+        arr[j] = temp;
+      }
+    }
+  }
+System.out.println(Arrays.toString(arr));
+```
+## 선택정렬
+#### 2021.06.14
++ 제자리 정렬 알고리즘 중 하나
+    1. 주어진 리스트 중에 최소값을 찾는다.
+    1. 그 값을 맨 앞에 위치한 값과 교체한다.
+    1. 맨 처음 위치를 뺀 나머지 리스트를 같은 방법으로 교체한다.
+
++ if
+    + 9 1 6 8 4 3 2 0 => 최솟값 : 0, 9와 0 교체
+    + 0 1 6 8 4 3 2 0 => 최솟값 : 1, 그대로
+``` java
+for (int i=0; i<list.length-1; i++) {
+    indexMin = i;
+    for (int j=i+1; j<list.length; i++) {
+        if (list[j] < list[indexMin])
+        indexMin = j;
+    }
+    temp = list[indexMin];
+    list[indexMin] = list[i];
+    list[i] = temp;
+}
+```
+## 삽입정렬
+#### 2021.06.14
++ 자료 배열의 모든 요소를 앞에서부터 차례로 이미 정렬된 배열 부분과 비교하여, 자신의 위치를 삽입함으로써 정렬을 완성하는 알고리즘
++ if
+    + 31 25 12 22 11 // 처음 상태
+    + 31 [25] 12 22 11 // 두번째 원소 부분을 리스트에서 적절한 위치에 삽입
+    + <25> 31 [12] 22 11 // 세번째 원소 부분을 리스트에서 적절한 위치에 삽입
+    + <12> 25 31 [22] 11 // 네번째 원소 부분을 리스트에서 적절한 위치에 삽입
+```java
+for (int index = 1; index<arr.length; length++) {
+  int temp = arr[intex];
+  int aux = index-1;
+  
+  while ((aux >= 0) && (arr[aux]>temp)) {
+    arr[aux+1] = arr[aux];
+    aux--;
+  }
+  
+  arr[aux+1] = temp;
+}
+```
