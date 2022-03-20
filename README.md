@@ -14,7 +14,7 @@
 
 ## [Common Basic](./til/common-basic/common-basic.md)
 
-## [Kotlin](./til/kotlin/kotlin.md)
+## [Kotlin](./til/kotlin/kotlin-idx.md)
 + [Kotlin 문법 정리](./til/kotlin/kotlin-basic.md)
 
 ## JAVA
