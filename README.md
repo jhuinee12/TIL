@@ -37,7 +37,8 @@
 ## My Dev FootPrint
 
 ### MDF-Android
-+ [구현](./my-dev-footprint/mdf-android/sample-source/android-sample-source.md)
++ [구현](./my-dev-footprint/mdf-android/sample-source/idx.md)
 + [에러사항](./my-dev-footprint/mdf-android/error/android-error.md)
 
 ### C#
++ [구현](./my-dev-footprint/c%23/sample-source/book-management-program.md)
