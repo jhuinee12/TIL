@@ -13,8 +13,12 @@
 
 ## **TIL**
 
-## Git
-+ [git 사용 기초](./git/git.md)
+## [Common Basic](./til/common-basic/common-basic.md)
+
+## Kotlin
+
+## JAVA
++ [JAVA](./til/java/java.md)
 
 ## Algorithm
 + [기초 알고리즘 정리](./algorithm/algorithm.md)
@@ -22,11 +26,12 @@
 ## TIL-Android
 + [안드로이드 기본 기능](./til-android/til-android-basic.md)
 
-## Kotlin
-
 - - -
 
 ## **번외**
+
+## Git
++ [git 사용 기초](./git/git.md)
 
 ## Coding Test Practice
 
