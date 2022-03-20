@@ -35,15 +35,15 @@
 
 ## [Coding Test Practice](./extra/coding-test-practice/coding-test-practice.md)
 
-### [Programmers](./extra/coding-test-practice/coding-test-practice.md/#programmers)
-+ [Java](./programmers/java/programmers-java-idx.md)
-+ [Kotlin](./programmers/kotlin/programmers-kotlin-idx.md)
+### Programmers
++ [Java](./extra/coding-test-practice/programmers/java/programmers-java-idx.md)
++ [Kotlin](./extra/coding-test-practice/programmers/kotlin/programmers-kotlin-idx.md)
 
 ## My Dev FootPrint
 
 ### MDF-Android
-+ [구현](./my-dev-footprint/mdf-android/sample-source/idx.md)
-+ [에러사항](./my-dev-footprint/mdf-android/error/android-error.md)
++ [구현](./extra/my-dev-footprint/mdf-android/sample-source/idx.md)
++ [에러사항](./extra/my-dev-footprint/mdf-android/error/android-error.md)
 
 ### C#
-+ [구현](./my-dev-footprint/c%23/sample-source/book-management-program.md)
++ [구현](./extra/my-dev-footprint/c%23/book-management-program.md)
