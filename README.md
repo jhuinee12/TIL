@@ -15,7 +15,8 @@
 
 ## [Common Basic](./til/common-basic/common-basic.md)
 
-## Kotlin
+## [Kotlin](./til/kotlin/kotlin.md)
++ [Kotlin 문법 정리](./til/kotlin/kotlin.md/#코틀린-문법-정리)
 
 ## JAVA
 + [JAVA](./til/java/java.md)
@@ -33,11 +34,9 @@
 ## Git
 + [git 사용 기초](./git/git.md)
 
-## Coding Test Practice
+## [Coding Test Practice](./extra/coding-test-practice/coding-test-practice.md)
 
-### Programmers
-+ [Java]
-+ [Kotlin]
+### [Programmers](./extra/coding-test-practice/coding-test-practice.md/#programmers)
 
 ## My Dev FootPrint
 
