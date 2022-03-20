@@ -5,7 +5,7 @@
 
 | **문제 설명** |
 | --- |
-| 함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지나는 리스트를 리턴해야 합니다.   다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성하세요. |
+| 함수 solution은 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지나는 리스트를 리턴해야 합니다.<br>다음 제한 조건을 보고, 조건을 만족하는 함수, solution을 완성하세요. |
 
 | **제한 조건** |
 | --- |
@@ -26,7 +26,7 @@
 
 2\. 그 다음 answer\[0\]만큼 증가시켜 n개의 숫자를 배열 안에 넣는다.
 
-```
+```java
 class Solution {
   public long[] solution(int x, int n) {
       long[] answer = new long[n];

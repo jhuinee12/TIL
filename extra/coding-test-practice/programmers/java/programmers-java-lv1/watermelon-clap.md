@@ -5,7 +5,7 @@
 
 | **문제 설명** |
 | --- |
-| 길이가 n이고, “수박수박수박수….”와 같은 패턴을 유지하는 문자열을 리턴하는 함수, solution 완성   예를 들어 n=4이면, “수박수박”을 리턴하고 3이면 “수박수”리턴 |
+| 길이가 n이고, “수박수박수박수….”와 같은 패턴을 유지하는 문자열을 리턴하는 함수, solution 완성<br>예를 들어 n=4이면, “수박수박”을 리턴하고 3이면 “수박수”리턴 |
 
 | **제한 조건** |
 | --- |
@@ -25,7 +25,7 @@
 
 3\. 홀수인 경우 누락된 한 글자를 나중에 추가 : answer += “수”;
 
-```
+```java
 class Solution {
 	public String solution(int n) {
 		String answer = "";
@@ -56,7 +56,7 @@ class Solution {
 
 3. 홀수인 경우 누락된 한 글자를 나중에 추가 : answer += “수”;
 
-```
+```java
 class Solution {
 	public String solution(int n) {
 		return new String(new char[n/2+1]).replace("\0","수박").subString(0,n);
@@ -74,7 +74,7 @@ _\* **subString(0, n)** : 0부터 n까지 자르는 함수_
 
 삼항연산자를 이용하여 자릿수(for문 중 i)가 홀수면 “수”, 짝수면 “박”
 
-```
+```java
 class Solution {
 	public String solution(int n) {
 		String result = "";
@@ -89,7 +89,7 @@ class Solution {
 
 StringBuffer를 이용하여 Java2의 풀이법을 sf에 넣어 나중에 String으로 바꿔 출력
 
-```
+```java
 class Solution {
 	public String solution(int n) {
 		StringBuffer sf = new StringBuffer();

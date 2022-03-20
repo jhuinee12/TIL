@@ -6,7 +6,7 @@
 
 | **문제 설명** |
 | --- |
-| 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 리턴하는 함수,   solution을 완성하세요.   예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다. |
+| 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 리턴하는 함수,   solution을 완성하세요.<br>예를 들어 a = 3, b = 5인 경우, 3 + 4 + 5 = 12이므로 12를 리턴합니다. |
 
 | **제한 조건** |
 | --- |
@@ -27,7 +27,7 @@
 
 2\. 작은 수부터 큰 수까지 for문을 이용하여 모든 숫자 합하기
 
-```
+```java
 class Solution {
 	public long solution(int a, int b) {
 		long answer = 0;
@@ -57,7 +57,7 @@ class Solution {
 
 (등차수열의 합 공식 : (2a+(n-1)d)/2
 
-```
+```java
 class Solution {
 	public long solution(int a, int b) {
 		return sumAtoB(Math.min(a,b), Math.max(b,a)); // 대소관계 구분 내장함수
@@ -75,7 +75,7 @@ class Solution {
 
 2\. 작은 수부터 큰 수까지 for문을 이용하여 숫자 합하기
 
-```
+```java
 class Solution {
 	public long solution(int a, int b) {
 		long answer = 0;

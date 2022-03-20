@@ -23,7 +23,7 @@
 
 1\. 1부터 n까지의 숫자 중 n으로 나눴을 때 나누어 떨어지는 수(약수)를 모두 더하는 for문
 
-```
+```java
 class Solution {
 	public int solution(int n) {
 		int answer = 0;
@@ -45,7 +45,7 @@ class Solution {
 
 2\. return할 때 마지막 n을 더해줌 (소수 중 2가 제일 작으므로 남는 건 n 밖에 없음)
 
-```
+```java
 class Solution {
 	public int solution(int n) {
 		int answer = 0;

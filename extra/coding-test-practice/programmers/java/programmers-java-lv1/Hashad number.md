@@ -6,7 +6,7 @@
 
 | **문제 설명** |
 | --- |
-| 양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어져야 합니다.   예를 들어 18의 자릿수 합은 1+8=9이고, 18은 9로 나누어 떨어지므로 18은 하샤드 수입니다.   자연수 x를 입력받아 x가 하샤드 수인지 아닌지 검사하는 함수, solution을 완성해주세요. |
+| 양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어져야 합니다.<br>예를 들어 18의 자릿수 합은 1+8=9이고, 18은 9로 나누어 떨어지므로 18은 하샤드 수입니다.<br>자연수 x를 입력받아 x가 하샤드 수인지 아닌지 검사하는 함수, solution을 완성해주세요. |
 
 | **제한 조건** |
 | --- |
@@ -31,7 +31,7 @@
 
 4\. sum이 x에 나누어 떨어지면 하샤드수
 
-```
+```java
 class Solution {
   public boolean solution(int x) {
       	boolean answer = true;
@@ -58,7 +58,7 @@ class Solution {
 
 3\. 하샤드 여부 확인
 
-```
+```java
 public boolean isHarshad(int num){
 
     String[] temp = String.valueOf(num).split("");
@@ -84,7 +84,7 @@ public boolean isHarshad(int num){
 
 3\. mod를 10으로 나누었을 때 나머지가 0이상이면 do 실행문 실행
 
-```
+```java
 public class HarshadNumber{
     public boolean isHarshad(int num){
 		int mod=num;
