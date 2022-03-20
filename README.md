@@ -1,5 +1,4 @@
 # Today I Learned(TIL : 1일 1커밋)
-> TIL은 이사중~~
 
 > 시작 : 2022.03.20
 
@@ -16,7 +15,7 @@
 ## [Common Basic](./til/common-basic/common-basic.md)
 
 ## [Kotlin](./til/kotlin/kotlin.md)
-+ [Kotlin 문법 정리](./til/kotlin/kotlin.md/#코틀린-문법-정리)
++ [Kotlin 문법 정리](./til/kotlin/kotlin-basic.md)
 
 ## JAVA
 + [JAVA](./til/java/java.md)
