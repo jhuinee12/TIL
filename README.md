@@ -22,10 +22,10 @@
 + [JAVA](./til/java/java.md)
 
 ## Algorithm
-+ [기초 알고리즘 정리](./algorithm/algorithm.md)
++ [기초 알고리즘 정리](./til/algorithm/algorithm.md)
 
 ## TIL-Android
-+ [안드로이드 기본 기능](./til-android/til-android-basic.md)
++ [안드로이드 기본 기능](./til/til-android/til-android-basic.md)
 
 - - -
 
@@ -37,6 +37,8 @@
 ## [Coding Test Practice](./extra/coding-test-practice/coding-test-practice.md)
 
 ### [Programmers](./extra/coding-test-practice/coding-test-practice.md/#programmers)
++ [Java](./programmers/java/programmers-java-idx.md)
++ [Kotlin](./programmers/kotlin/programmers-kotlin-idx.md)
 
 ## My Dev FootPrint
 
