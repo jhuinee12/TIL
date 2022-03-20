@@ -31,7 +31,7 @@
 ## **번외**
 
 ## Git
-+ [git 사용 기초](./git/git.md)
++ [git 사용 기초](./extra/git/git.md)
 
 ## [Coding Test Practice](./extra/coding-test-practice/coding-test-practice.md)
 
