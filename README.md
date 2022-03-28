@@ -10,7 +10,7 @@
 
 - - -
 
-## **TIL**
+## **Study**
 
 ## [Common Basic](./til/common-basic/common-basic.md)
 
@@ -28,7 +28,7 @@
 
 - - -
 
-## **번외**
+## **Skiils**
 
 ## Git
 + [git 사용 기초](./extra/git/git.md)
@@ -47,3 +47,5 @@
 
 ### C#
 + [구현](./extra/my-dev-footprint/c%23/book-management-program.md)
+
+## **Exam**
