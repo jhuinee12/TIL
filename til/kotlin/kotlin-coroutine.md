@@ -97,6 +97,7 @@ class CallEvent(val id: Int)
 // 이벤트 발생 : post(발생시키고 싶은 이벤트) -> CallEvent
 EventBus.getDefault().post(CallEvent(id))
 ```
+* 안드로이드 문서에서는 onStart에서 등록하고 onStop에서 해제 권고
 
 * * *
 
