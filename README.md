@@ -50,13 +50,17 @@
 
 - - -
 
-<진행사항>
+### 진행사항
 
-<진행예정>
+#### 2022년 3월
+* 03/28
+    * Source에서 Color에 Alpha값 넣기
+
+
+### 진행예정
 * typealias VS inline class
 * up VS back => naviagteUp() VS popupBackStack()
 * inner class
-* Color에 Alpha값 추가
 * webview CookieManager
 * Timber
 * DataStore
