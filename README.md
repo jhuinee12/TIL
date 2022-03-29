@@ -15,7 +15,6 @@
 ## [Common Basic](./til/common-basic/common-basic.md)
 
 ## [Kotlin](./til/kotlin/kotlin-idx.md)
-+ [Kotlin 문법 정리](./til/kotlin/kotlin-basic.md)
 
 ## JAVA
 + [JAVA](./til/java/java.md)
@@ -56,6 +55,8 @@
 #### 2022년 3월
 * 03/28
     * Source에서 Color에 Alpha값 넣기
+* 03/29
+    * Kotlin - Deligation
 
 
 ### 진행예정
