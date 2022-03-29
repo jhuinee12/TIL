@@ -72,3 +72,4 @@
 * 클린아키텍처
 * MVVM : UseCase / Repository
 * Retrofit / Multipart
+* command 창에서 logcat 확인하는 방법
