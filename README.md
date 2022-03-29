@@ -49,3 +49,28 @@
 + [구현](./extra/my-dev-footprint/c%23/book-management-program.md)
 
 ## **Exam**
+- - -
+
+### 진행사항
+
+#### 2022년 3월
+* 03/28
+    * Source에서 Color에 Alpha값 넣기
+
+
+### 진행예정
+* typealias VS inline class
+* up VS back => naviagteUp() VS popupBackStack()
+* inner class
+* webview CookieManager
+* Timber
+* DataStore
+* Animation Activity
+* 고차함수 (kotlin)
+* android/app/tools 차이 (xml)
+* Deligation (kotlin)
+* viewLifecycleOwner
+* 클린아키텍처
+* MVVM : UseCase / Repository
+* Retrofit / Multipart
+* command 창에서 logcat 확인하는 방법
