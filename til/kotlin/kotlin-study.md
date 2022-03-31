@@ -1,5 +1,6 @@
 # Kotlin 심화 내용 공부
 * [Deligation](#deligation)
+* [Typealias VS Inline Class](#typealias-vs-inline-class)
 
 - - -
 
@@ -36,3 +37,5 @@ class Rectangle (val width: Int, val height: Int): ClosedShape {
 
 class Window (private val bounds: ClosedShape): ClosedShape by bounds
 ```
+
+## Typealias VS Inline Class

@@ -52,12 +52,17 @@
 
 ### 진행사항
 
-#### 2022년 3월
+<details>
+<summary>2022년 3월</summary>
+
 * 03/28
     * Source에서 Color에 Alpha값 넣기
 * 03/29
     * Kotlin - Deligation
 
+</details>
+
+<br>
 
 ### 진행예정
 * typealias VS inline class
