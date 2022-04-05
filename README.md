@@ -50,7 +50,7 @@
 ## **Exam**
 - - -
 
-### 진행사항
+<br>
 
 <details>
 <summary>2022년 3월</summary>
@@ -62,21 +62,13 @@
 
 </details>
 
-<br>
+<details>
+<summary>2022년 4월</summary>
 
-### 진행예정
-* typealias VS inline class
-* up VS back => naviagteUp() VS popupBackStack()
-* inner class
-* webview CookieManager
-* Timber
-* DataStore
-* Animation Activity
-* 고차함수 (kotlin)
-* android/app/tools 차이 (xml)
-* Deligation (kotlin)
-* viewLifecycleOwner
-* 클린아키텍처
-* MVVM : UseCase / Repository
-* Retrofit / Multipart
-* command 창에서 logcat 확인하는 방법
+* 04/05
+    * typealias VS inline class
+    * android xml : tools란?
+
+</details>
+
+<br>
