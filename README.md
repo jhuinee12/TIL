@@ -32,12 +32,6 @@
 ## Git
 + [git 사용 기초](./extra/git/git.md)
 
-## [Coding Test Practice](./extra/coding-test-practice/coding-test-practice.md)
-
-### Programmers
-+ [Java](./extra/coding-test-practice/programmers/java/programmers-java-idx.md)
-+ [Kotlin](./extra/coding-test-practice/programmers/kotlin/programmers-kotlin-idx.md)
-
 ## My Dev FootPrint
 
 ### MDF-Android
