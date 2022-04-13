@@ -71,6 +71,7 @@
     * android xml : tools란?
 * 04/13
     * TIL 구조 변경
+    * notifyDataChanged() 종류
 
 </details>
 
