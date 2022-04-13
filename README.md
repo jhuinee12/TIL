@@ -8,40 +8,47 @@
 + [Markdown 사용법: 링크 걸기](https://velog.io/@dblee/%EA%B9%83%ED%97%88%EB%B8%8CMarkdown-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%A7%81%ED%81%AC-%EA%B1%B8%EA%B8%B0)
 + [마크다운(MARKDOWN) 문법 사용법](https://eungbean.github.io/2018/06/11/How-to-use-markdown/)
 
+## [Git 사용법](./git/git.md)
+
 - - -
 
 ## **Study**
 
-## [Common Basic](./til/common-basic/common-basic.md)
+### **Programming**
+* [Interface](./programming/interface.md)
+* [객체지향 언어](./programming/object-orientation-language.md)
 
-## [Kotlin](./til/kotlin/kotlin-idx.md)
+### **JAVA**
 
-## JAVA
-+ [JAVA](./til/java/java.md)
+### **Kotlin**
+* [기본 문법](./kotlin/kotlin-basic.md)
+* [Coroutine](./kotlin/kotlin-coroutine.md)
+* [심화 내용](./kotlin/kotlin-study.md)
 
-## Algorithm
-+ [기초 알고리즘 정리](./til/algorithm/algorithm.md)
+### **Android**
+#### 안드로이드 기능에 대한 공부
+* [Life Cycle](./android/android-study/android-lifecycle-study.md)
+* [안드로이드 기본 기능](./android/android-study/android-basic-function-study.md)
+* [안드로이드 뷰](./android/android-study/android-view-basic-study.md)
+* [안드로이드에서 MVVM 사용](./android/android-study/android-mvvm-study.md)
+* [안드로이드에서 RxJava 사용](./android/android-study/android-rxjava-study.md)
+#### 구현 예제
+* [API를 이용한 안드로이드 예제](./android/sample-source/android-api/android-api-sample.md)
+    * [네이버 데이터 파싱하기](./android/sample-source/android-api/naver-shopping-api.md)
+* 안드로이드에서 Implementation을 사용하는 예제
+    * [안드로이드 위치 권한 부여하기 예제](./android/sample-source/android-impl/android-permission-sample.md)
+* 안드로이드 레이아웃 관련 예제
+    * [View의 기본 특성을 설명하는 예제](./android/sample-source/android-layout/android-view-basic-sample.md)
+    * [Fragment의 특성을 이용한 예제](./android/sample-source/android-layout/android-fragment-sample.md)
+    * [RecyclerView 예제](./android/sample-source/android-layout/android-recyclerview-sample.md)
+    * [설정화면 구현 예제](./android/sample-source/android-layout/android-settingview-sample.md)
+* [서버 통신 예제](./android/sample-source/android-server/android-server-study.md)
+* [웹뷰 예제](./android/sample-source/android-webview/android-webview-study.md)
+#### [에러사항 정리](./android/error/android-error.md)
 
-## TIL-Android
-+ [안드로이드 기본 기능](./til/til-android/til-android-basic.md)
+### **C#**
+* [도서관리 프로그램](./c%23/book-m-p/book-management-program.md)
 
-- - -
-
-## **Skiils**
-
-## Git
-+ [git 사용 기초](./extra/git/git.md)
-
-## My Dev FootPrint
-
-### MDF-Android
-+ [구현](./extra/my-dev-footprint/mdf-android/sample-source/idx.md)
-+ [에러사항](./extra/my-dev-footprint/mdf-android/error/android-error.md)
-
-### C#
-+ [구현](./extra/my-dev-footprint/c%23/book-management-program.md)
-
-## **Exam**
 - - -
 
 <br>
@@ -62,6 +69,8 @@
 * 04/05
     * typealias VS inline class
     * android xml : tools란?
+* 04/13
+    * TIL 구조 변경
 
 </details>
 
