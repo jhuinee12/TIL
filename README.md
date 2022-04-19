@@ -72,6 +72,8 @@
 * 04/13
     * TIL 구조 변경
     * notifyDataChanged() 종류
+* 04/19
+    * Android TextView Ellipsize
 
 </details>
 
