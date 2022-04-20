@@ -74,6 +74,8 @@
     * notifyDataChanged() 종류
 * 04/19
     * Android TextView Ellipsize
+* 04/20
+    * 참조
 
 </details>
 
