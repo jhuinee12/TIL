@@ -3,6 +3,8 @@
 * [This file does not belong to the project](#This-file-does-not-belong-to-the-project)
 * [not permitted by network security policy](#not-permitted-by-network-security-policy)
 * [This version of the Android Support plugin for IntelliJ IDEA](#this-version-of-the-android-support-plugin-for-intellij-idea)
+* [onError: retrofit2.adapter.rxjava3.HttpException: HTTP 404 Not Found](#onerror-retrofit2adapterrxjava3httpexception-http-404-not-found)
+* [java.lang.NumberFormatException: Expected an int but was 106112471000]
 
 ----
 <br>
@@ -97,3 +99,54 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
 }
 ```
+
+* * *
+
+# onError: retrofit2.adapter.rxjava3.HttpException: HTTP 404 Not Found
+> 최초작성 : 2022.05.17
+
+RxJava3와 Retrofit2을 이용하여 로또 당첨 번호를 조회하는 도중 해당 오류를 만났다.
+
+404 오류는 주소가 틀렸을 때 나타나는 오류이다.
+
+### 1\. retrofit init은 다음과 같다.
+```kt
+init {
+    val retrofit = Retrofit.Builder()
+        .baseUrl("https://www.dhlottery.co.kr/common.do/")
+        .client(OkHttpClient())
+        .addCallAdapterFactory(RxJava3CallAdapterFactory.create())   // 받은 응답을 observable 형태로 변환
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
+
+    api = retrofit.create(LottoApi::class.java)
+}
+```
+
+### 2\. get 주소는 다음과 같다.
+```kt
+@GET("common.do")
+fun getLottoWinnerNumber(
+    @Query("method") method: String = "getLottoNumber",
+    @Query("drwNo") drwNo: Int,
+): Observable<LotteryNumber>
+```
+
+멍청한 결과지만 common.do를 동시에 적어서 발생한 오류였다...
+
+* * *
+
+# java.lang.NumberFormatException: Expected an int but was 106112471000
+> 최초작성 : 2022.05.17
+
+위와 연결하여 로또 당첨번호를 받아오는 도중 다음과 같은 에러를 만났다.
+
+느낌에 106112471000를 포맷화할 수 없어 생긴 오류 같았다.
+
+106112471000는 해당 로또 회차의 총 판매금액이었고, 이걸 나는 Int로 받아오고 있었다.
+
+받아오는 변수 타입을 Long으로 바꿔주면 된다.
+
+
+* long 최대값 : 9,223,372,036,854,775,807
+* int 최대값 : 2,147,483,647

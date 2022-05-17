@@ -80,4 +80,14 @@
 
 </details>
 
+<details>
+<summary>2022년 5월</summary>
+
+* 05/17
+    * RxJava 추가 작성
+    * Retrofit 404 Error
+    * int, long format 오류
+
+</details>
+
 <br>
