@@ -39,8 +39,8 @@ Observable이 데이터를 발행하고 알림(Event)을 보내면 Observer는 O
 // Emitter를 통해 알림을 보낸다고 생각하면 된다
 public interface Emitter<@NonNull T> {
     void onNext(@NonNull T value);  // 데이터의 발행을 알림
-    void onError(@NonNull Throwable error); // 모든 데이터의 발행이 완료되었음을 알림, 딱 한 번만 발생하며 이후에 onNext가 발생하면 안됨
-    void onComplete();  // 오류가 발생했음을 알림, 이후에 onNext와 onComplete가 발생하지 않음
+    void onError(@NonNull Throwable error);  // 오류가 발생했음을 알림, 이후에 onNext와 onComplete가 발생하지 않음
+    void onComplete(); // 모든 데이터의 발행이 완료되었음을 알림, 딱 한 번만 발생하며 이후에 onNext가 발생하면 안됨
 }
 ```
 ### **Observer의 Subscribe**
@@ -152,8 +152,8 @@ Observable.create(emitter -> {
 * 스케쥴러를 이용해서 데이터를 통지하는 쪽과 데이터를 처리하는 쪽 쓰레드를 별도로 지정해서 분리 가능
 * RxJava의 스케쥴러를 통해 쓰레드를 위한 코드의 간결성 및 쓰레드 관리의 복잡함을 줄일 수 있음
 * RxJava에서 스케쥴러를 지정하기 위해서 subscribeOn(), observeOn() 유틸리티 연산자를 사용
-    * 생산자쪽의 데이터 흐름을 제어하기 위해서는 subscribeOn() 연산자를 사용한다.
-    * 소비자쪽에서 전달받은 데이터 처리를 제어하기 위해서는 observeOn() 연산자를 사용한다.
+    * 생산자(Observable) 쪽의 데이터 흐름을 제어하기 위해서는 subscribeOn() 연산자를 사용한다.
+    * 소비자(Observer) 쪽에서 전달받은 데이터 처리를 제어하기 위해서는 observeOn() 연산자를 사용한다.
     * subscribeOn(), observeOn() 연산자는 각각 파라미터로 Scheduler를 지정해야 한다.
 
 ## Schedulers의 종류
