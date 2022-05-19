@@ -88,6 +88,9 @@
     * Retrofit 404 Error
     * int, long format 오류
 
+* 05/18
+    * RxJava 추가 작성
+
 </details>
 
 <br>

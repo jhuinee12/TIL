@@ -1,5 +1,6 @@
 * [RxJava란?](#rxjava란) - 2022.05.17
 * [Observable이란?](#observable이란) - 2022.03.13
+* [Schedulers란?](#schedulers란) - 2022.05.19
 * [RxJava: Subject, PublishSubject, BehaviorSubject](#rxjava-subject-publishsubject-behaviorsubject) - 2022.03.13
 
 * * *
@@ -140,6 +141,30 @@ Observable.create(emitter -> {
 * onNext(): 하나의 소스 Observable에서 Observer까지 한 번에 순차적으로 데이터 발행
 * onComplete(): 데이터 발행이 끝났음을 알리는 완료 이벤트를 Observer에 전달하여 onNext()를 더 호출하지 않음
 * onError(): 오류가 발생했음을 Observer에 전달
+
+* * *
+
+# Schedulers란?
+> 최초작성 : 2022.05.19
+
+* RxJava에서의 Schedulers는 RxJava 비동기 프로그래밍을 위한 쓰레드(Thread) 관리자
+    * 즉, 스케쥴러를 이용해서 어떤 쓰레드에서 무엇을 처리할 지에 대해서 제어할 수 있다.
+* 스케쥴러를 이용해서 데이터를 통지하는 쪽과 데이터를 처리하는 쪽 쓰레드를 별도로 지정해서 분리 가능
+* RxJava의 스케쥴러를 통해 쓰레드를 위한 코드의 간결성 및 쓰레드 관리의 복잡함을 줄일 수 있음
+* RxJava에서 스케쥴러를 지정하기 위해서 subscribeOn(), observeOn() 유틸리티 연산자를 사용
+    * 생산자쪽의 데이터 흐름을 제어하기 위해서는 subscribeOn() 연산자를 사용한다.
+    * 소비자쪽에서 전달받은 데이터 처리를 제어하기 위해서는 observeOn() 연산자를 사용한다.
+    * subscribeOn(), observeOn() 연산자는 각각 파라미터로 Scheduler를 지정해야 한다.
+
+## Schedulers의 종류
+
+| Scheduler | 설명 |
+|---|---|
+|Schdulers.io()|- I/O 처리 작업을 할 때 사용하는 스케쥴러<br>- 네트워크 요청 처리, 각종 입/출력 작업, 데이터베이스 쿼리 등에 사용<br>- 쓰레드 풀에서 쓰레드를 가져오거나 가져올 쓰레드가 없으면 새로운 쓰레드를 생성한다.|
+|Schdulers.computation()|- 논리적인 연산 처리 시, 사용하는 스케쥴러<br>- CPU 코어의 물리적 쓰레드 수를 넘지 않는 범위에서 쓰레들르 생성한다.<br>- 대기 시간 없이 빠르게 계산 작업을 수행하기위해 사용한다.|
+|Schdulers.newThread()|- 요청시마다 매번 새로운 쓰레드를 생성한다.<br>- 매번 생성되면 쓰레드 비용도 많이 들고, 재사용도 되지 않는다.|
+
+* * *
 
 ## 정리
 * **Observable**
