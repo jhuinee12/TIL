@@ -189,7 +189,7 @@ Observable.create(emitter -> {
 * 따로 Observable로 새로운 값을 만들 필요 없이 Subject 객체에 내장된 onNext 함수로 새로운 값을 옵저버에 전달할 수 있기 때문에 짧은 코드로고 reactive하게 구현 가능
 * LiveData와 비슷한 역할
 
-### **PublicSubject를 이용해서 새로운 값 갱신 예제**
+### **PublishSubject를 이용해서 새로운 값 갱신 예제**
 ```kt
 class Person {
     var publishName: PublishSubject<String> = PublishSubject.create()
@@ -217,7 +217,8 @@ class Person {
     
     // subject 객체의 값을 한번에 바꾸는 함수
     fun nextName(name: String) {
-        behaviorName.onNext(name) publishName.onNext(name)
+        behaviorName.onNext(name)
+        publishName.onNext(name)
     }
 }
 
@@ -243,7 +244,7 @@ publishName: developer
 * 과거 데이터를 무시하고 새로 갱신된 값만 보고 싶은 경우 사용하기 유용
 * 대표적으로 버튼 클릭 이벤트에 많이 사용
 
-rggyb## 04. BehaviorSubject
+## 04. BehaviorSubject
 * 구독하는 시점의 가장 최근에 갱신된 값을 받음
 
 ![BehaviorSubject](../image/BehaviorSubject.png)
