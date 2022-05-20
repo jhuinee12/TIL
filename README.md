@@ -33,6 +33,7 @@
 * [안드로이드 뷰](./android/android-study/android-view-basic-study.md)
 * [안드로이드에서 MVVM 사용](./android/android-study/android-mvvm-study.md)
 * [안드로이드에서 RxJava 사용](./android/android-study/android-rxjava-study.md)
+* [안드로이드에서 심화 기능 사용](./android/android-study/android-deep-function-study.md)
 #### 구현 예제
 * [API를 이용한 안드로이드 예제](./android/sample-source/android-api/android-api-sample.md)
     * [네이버 데이터 파싱하기](./android/sample-source/android-api/naver-shopping-api.md)
@@ -88,8 +89,11 @@
     * Retrofit 404 Error
     * int, long format 오류
 
-* 05/18
+* 05/19
     * RxJava 추가 작성
+
+* 05/20
+    * DeepLink 작성
 
 </details>
 
