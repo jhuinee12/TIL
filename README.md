@@ -97,4 +97,12 @@
 
 </details>
 
+<details>
+<summary>2022년 8월</summary>
+
+* 08/26
+    * gradle 활용하기
+
+</details>
+
 <br>
