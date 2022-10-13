@@ -44,6 +44,8 @@
     * [Fragment의 특성을 이용한 예제](./android/sample-source/android-layout/android-fragment-sample.md)
     * [RecyclerView 예제](./android/sample-source/android-layout/android-recyclerview-sample.md)
     * [설정화면 구현 예제](./android/sample-source/android-layout/android-settingview-sample.md)
+* 안드로이드 Firebase 연결
+    * [Remote Config 사용하기]()
 * [서버 통신 예제](./android/sample-source/android-server/android-server-study.md)
 * [웹뷰 예제](./android/sample-source/android-webview/android-webview-study.md)
 #### [에러사항 정리](./android/error/android-error.md)
