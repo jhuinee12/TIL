@@ -12,27 +12,8 @@
 
 - - -
 
-## **Study**
-
-### **Programming**
-* [Interface](./programming/interface.md)
-* [객체지향 언어](./programming/object-orientation-language.md)
-* [참조](./programming/reference.md)
-
-### **JAVA**
-
-### **Kotlin**
-* 기본 문법
-    * [01. 변수 선언하기](./kotlin/basic/01.%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0.md)
-    * [02. 조건문](./kotlin/basic/02.%20%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
-    * [03. 배열과 컬렉션](./kotlin/basic/03.%20%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%BB%AC%EB%A0%89%EC%85%98.md)
-    * [04. 반복문](./kotlin/basic/04.%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
-    * [05. 함수](./kotlin/basic/05.%20%ED%95%A8%EC%88%98.md)
-    * [06. 클래스](./kotlin/basic/06.%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
-    * [07. 설계도구](./kotlin/basic/07.%20%EC%84%A4%EA%B3%84%EB%8F%84%EA%B5%AC.md)
-* 심화 내용
-    * [Deligation](./kotlin/tech/Deligation.md)
-    * [Typealias vs Inline Class](./kotlin/tech/Typealias%20vs%20Inline%20Class.md)
+### Algorithm
+* [정렬](./algorithm/%EC%A0%95%EB%A0%AC.md)
 
 ### **Android**
 * API 호출하기
@@ -71,6 +52,26 @@
     * [설정화면 구현하기](./android/view/settingview.md)
     * [소스에서 컬러에 알파값 추가하기](./android/view/source_color_alpha.md)
     * [TextView에서 끝에 .. 처리하기](./android/view/textview_ellipsize.md)
+
+### **JAVA**
+
+### **Kotlin**
+* 기본 문법
+    * [01. 변수 선언하기](./kotlin/basic/01.%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0.md)
+    * [02. 조건문](./kotlin/basic/02.%20%EC%A1%B0%EA%B1%B4%EB%AC%B8.md)
+    * [03. 배열과 컬렉션](./kotlin/basic/03.%20%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%BB%AC%EB%A0%89%EC%85%98.md)
+    * [04. 반복문](./kotlin/basic/04.%20%EB%B0%98%EB%B3%B5%EB%AC%B8.md)
+    * [05. 함수](./kotlin/basic/05.%20%ED%95%A8%EC%88%98.md)
+    * [06. 클래스](./kotlin/basic/06.%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
+    * [07. 설계도구](./kotlin/basic/07.%20%EC%84%A4%EA%B3%84%EB%8F%84%EA%B5%AC.md)
+* 심화 내용
+    * [Deligation](./kotlin/tech/Deligation.md)
+    * [Typealias vs Inline Class](./kotlin/tech/Typealias%20vs%20Inline%20Class.md)
+
+### **Programming**
+* [Interface](./programming/interface.md)
+* [객체지향 언어](./programming/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
+* [참조](./programming/%EC%B0%B8%EC%A1%B0.md)
 
 ### **C#**
 * [도서관리 프로그램](./c%23/book-m-p/book-management-program.md)
@@ -116,7 +117,7 @@
 <summary>2022년 4월</summary>
 
 * 04/20
-    * 참조
+    * [참조](./programming/%EC%B0%B8%EC%A1%B0.md)
 * 04/19
     * [Android TextView Ellipsize](./android/view/textview_ellipsize.md)
 * 04/13
