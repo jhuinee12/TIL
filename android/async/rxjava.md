@@ -239,7 +239,7 @@ publishName: developer
 ## 03. PublishSubject
 * 구독 이후에 갱신된 값에 대해서만 값을 받음
 
-![PublishSubject](../image/PublishSubject.png)
+![PublishSubject](./image/PublishSubject.png)
 * 구독하기 이전에 갱신된 빨간공, 초록공은 무시하고 파란공만 받음
 * 과거 데이터를 무시하고 새로 갱신된 값만 보고 싶은 경우 사용하기 유용
 * 대표적으로 버튼 클릭 이벤트에 많이 사용
@@ -247,6 +247,6 @@ publishName: developer
 ## 04. BehaviorSubject
 * 구독하는 시점의 가장 최근에 갱신된 값을 받음
 
-![BehaviorSubject](../image/BehaviorSubject.png)
+![BehaviorSubject](./image/BehaviorSubject.png)
 * 구독하면서 가장 최근에 갱신된 초록생 공과 그 이후에 갱신된 파란색 공을 받음
 * 구독하는 시점에서 과거 갱신된 데이터 중 가장 최근 값이 필요할 때 사용하기 유용

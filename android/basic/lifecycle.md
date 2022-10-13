@@ -10,7 +10,7 @@
 
 ### **액티비티 생명 주기 단계**
 
-![](../image/activity-life-cycle.png)
+![](./image/activity-life-cycle.png)
 
 **_1\. onCreate()_**
 
@@ -152,7 +152,7 @@ override fun onStop() {
 
 ### **프래그먼트 생명 주기 상태 및 콜백**
 
-![](../image/fragment-life-cycle.png)
+![](./image/fragment-life-cycle.png)
 
 - 프래그먼트의 최대 상태는 FragmentManager에 의해 경정, 조각은 상태 이상으로 진행할 수 없음
 - FragmentTransaction의 일부를 사용하여 조각에 최대 생명 주기 상태 설정 가능

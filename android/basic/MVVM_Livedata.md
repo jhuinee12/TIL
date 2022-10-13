@@ -10,7 +10,7 @@
 > 최초작성: 2022.03.13
 View - ViewModel - Model
 
-![MVVM도식화](../image/MVVM%20%EB%8F%84%EC%8B%9D%ED%99%94.png)
+![MVVM도식화](./image/MVVM%20%EB%8F%84%EC%8B%9D%ED%99%94.png)
 
 * View: 사용자에게 보이는 화면
 * ViewModel: View를 표현하기 위해 만든 View를 위한 Model && View를 나타내주기 위한 데이터 처리 담당

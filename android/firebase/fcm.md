@@ -1,20 +1,14 @@
-Android API를 이용한 구현 공부
-+ [SNS Login](./android-api-sample-source/snslogin/snslogin.md)
-+ [네이버 쇼핑 데이터 파싱하기](./android-api-sample-source/naver-shopping-api.md)
-+ [FCM(Firebase Cloud Messaging) 푸시 알람 구현](#fcmfirebase-cloud-messaging-푸시-알람-구현)
+# FCM(Firebase Cloud Messaging) 푸시 알람 구현
 
----
-
-## FCM(Firebase Cloud Messaging) 푸시 알람 구현
 > 최초작성 : 2021.09.23
 
 _**[Android에서 Firebase 클라우드 메시징 클라이언트 앱 설정으로 이동](https://firebase.google.com/docs/cloud-messaging/android/client?hl=ko)**_
 
-**1\. Firebase Console에 프로젝트 생성**
+**01\. Firebase Console에 프로젝트 생성**
 
  _**[Firebase Console로 이동](https://console.firebase.google.com/u/1/?hl=ko)**_
 
-**2\. google-service.json을 안드로이드 스튜디오에 추가**
+**02\. google-service.json을 안드로이드 스튜디오에 추가**
 
 ![](./image/fcm-01.png)
 ![](./image/fcm-02.png)
