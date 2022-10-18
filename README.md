@@ -64,6 +64,8 @@
     * [05. 함수](./kotlin/basic/05.%20%ED%95%A8%EC%88%98.md)
     * [06. 클래스](./kotlin/basic/06.%20%ED%81%B4%EB%9E%98%EC%8A%A4.md)
     * [07. 설계도구](./kotlin/basic/07.%20%EC%84%A4%EA%B3%84%EB%8F%84%EA%B5%AC.md)
+* 함수
+    * [tailrec(꼬리재귀)](./kotlin/function/tailrec.md)
 * 심화 내용
     * [Deligation](./kotlin/tech/Deligation.md)
     * [Typealias vs Inline Class](./kotlin/tech/Typealias%20vs%20Inline%20Class.md)
