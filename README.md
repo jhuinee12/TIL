@@ -85,6 +85,9 @@
 <details>
 <summary>2022년 10월</summary>
 
+* 10/18
+    * [tailrec(꼬리재귀)](./kotlin/function/tailrec.md)
+
 * 10/13
     * [[TIL-1-3] Firabase Remote config 연결](./android/firebase/remoteconfig.md)
     * TIL Index 정리
